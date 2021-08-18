@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "name": "cars",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "model": {
+      "type": "string"
+    },
+    "serie": {
+      "type": "string"
+    },
+    "service": {
+      "type": "date"
+    },
+    "rolling": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "richtext"
+    },
+    "brakes": {
+      "type": "string"
+    },
+    "fuel": {
+      "type": "string"
+    },
+    "oil": {
+      "type": "string"
+    },
+    "air": {
+      "type": "string"
+    },
+    "lodge": {
+      "type": "string"
+    },
+    "compagny": {
+      "model": "compagnies",
+      "via": "cars"
+    },
+    "driver": {
+      "model": "drivers",
+      "via": "cars"
+    },
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

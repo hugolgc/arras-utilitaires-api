@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drivers",
+  "info": {
+    "name": "drivers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "cars": {
+      "via": "driver",
+      "collection": "cars"
+    }
+  }
+}

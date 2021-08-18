@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/compagnies",
+      "handler": "compagnies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/compagnies/count",
+      "handler": "compagnies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/compagnies/:id",
+      "handler": "compagnies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/compagnies",
+      "handler": "compagnies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/compagnies/:id",
+      "handler": "compagnies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/compagnies/:id",
+      "handler": "compagnies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

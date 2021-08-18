@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compagnies",
+  "info": {
+    "name": "compagnies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "cars": {
+      "via": "compagny",
+      "collection": "cars"
+    }
+  }
+}
