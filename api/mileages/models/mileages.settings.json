@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mileages",
+  "info": {
+    "name": "mileages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "kilometers": {
+      "type": "float"
+    },
+    "car": {
+      "model": "cars",
+      "via": "mileages"
+    }
+  }
+}

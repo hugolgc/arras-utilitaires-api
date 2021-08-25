@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "compagnies",
   "info": {
-    "name": "compagnies"
+    "name": "compagnies",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,6 +21,9 @@
     "cars": {
       "via": "compagny",
       "collection": "cars"
+    },
+    "detail": {
+      "type": "richtext"
     }
   }
 }

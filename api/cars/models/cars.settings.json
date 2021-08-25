@@ -43,12 +43,12 @@
       "type": "string"
     },
     "compagny": {
-      "model": "compagnies",
-      "via": "cars"
+      "via": "cars",
+      "model": "compagnies"
     },
     "driver": {
-      "model": "drivers",
-      "via": "cars"
+      "via": "cars",
+      "model": "drivers"
     },
     "files": {
       "collection": "file",
@@ -60,6 +60,13 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "motor": {
+      "type": "string"
+    },
+    "mileages": {
+      "via": "car",
+      "collection": "mileages"
     }
   }
 }
