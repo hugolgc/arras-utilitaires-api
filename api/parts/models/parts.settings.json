@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parts",
+  "info": {
+    "name": "parts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "customer": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "publicPrice": {
+      "type": "float"
+    },
+    "purchasePrice": {
+      "type": "float"
+    },
+    "customerPrice": {
+      "type": "float"
+    },
+    "maintenance": {
+      "via": "parts",
+      "model": "maintenances"
+    },
+    "part_type": {
+      "via": "parts",
+      "model": "part-type"
+    }
+  }
+}

@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "mileages",
+  "collectionName": "part_types",
   "info": {
-    "name": "mileages"
+    "name": "partType",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,15 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "date": {
-      "type": "date"
+    "name": {
+      "type": "string"
     },
-    "kilometers": {
-      "type": "float"
-    },
-    "car": {
-      "via": "mileages",
-      "model": "cars"
+    "parts": {
+      "collection": "parts",
+      "via": "part_type"
     }
   }
 }

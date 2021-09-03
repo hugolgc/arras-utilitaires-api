@@ -67,6 +67,10 @@
     "mileages": {
       "via": "car",
       "collection": "mileages"
+    },
+    "maintenances": {
+      "collection": "maintenances",
+      "via": "car"
     }
   }
 }

@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "mileages",
+  "collectionName": "maintenances",
   "info": {
-    "name": "mileages"
+    "name": "maintenances",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,11 +15,12 @@
     "date": {
       "type": "date"
     },
-    "kilometers": {
-      "type": "float"
+    "parts": {
+      "via": "maintenance",
+      "collection": "parts"
     },
     "car": {
-      "via": "mileages",
+      "via": "maintenances",
       "model": "cars"
     }
   }
