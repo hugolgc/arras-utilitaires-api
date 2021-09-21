@@ -16,8 +16,8 @@
       "type": "string"
     },
     "parts": {
-      "collection": "parts",
-      "via": "part_type"
+      "via": "part_type",
+      "collection": "parts"
     }
   }
 }

@@ -68,6 +68,12 @@
     "maintenances": {
       "collection": "maintenances",
       "via": "car"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "numberplate": {
+      "type": "string"
     }
   }
 }
