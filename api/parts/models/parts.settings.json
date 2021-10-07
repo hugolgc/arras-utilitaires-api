@@ -19,16 +19,20 @@
       "type": "string"
     },
     "amount": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "publicPrice": {
-      "type": "float"
+      "type": "float",
+      "default": 0
     },
     "purchasePrice": {
-      "type": "float"
+      "type": "float",
+      "default": 0
     },
     "customerPrice": {
-      "type": "float"
+      "type": "float",
+      "default": 0
     },
     "maintenance": {
       "via": "parts",

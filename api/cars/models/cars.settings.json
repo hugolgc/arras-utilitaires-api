@@ -74,6 +74,12 @@
     },
     "numberplate": {
       "type": "string"
+    },
+    "brakePads": {
+      "type": "string"
+    },
+    "brakeDiscs": {
+      "type": "string"
     }
   }
 }
