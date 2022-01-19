@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "date": {
-      "type": "date"
+      "type": "datetime"
     },
     "parts": {
       "via": "maintenance",
@@ -22,6 +22,19 @@
     "car": {
       "via": "maintenances",
       "model": "cars"
+    },
+    "state": {
+      "type": "boolean",
+      "default": false
+    },
+    "technician": {
+      "columnName": "Technician",
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "maintenances"
+    },
+    "end": {
+      "type": "datetime"
     }
   }
 }

@@ -66,8 +66,8 @@
       "collection": "mileages"
     },
     "maintenances": {
-      "collection": "maintenances",
-      "via": "car"
+      "via": "car",
+      "collection": "maintenances"
     },
     "brand": {
       "type": "string"
@@ -79,6 +79,12 @@
       "type": "string"
     },
     "brakeDiscs": {
+      "type": "string"
+    },
+    "brakePadsAr": {
+      "type": "string"
+    },
+    "brakeDiscsAr": {
       "type": "string"
     }
   }
