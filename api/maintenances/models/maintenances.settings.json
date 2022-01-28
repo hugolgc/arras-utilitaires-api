@@ -35,6 +35,87 @@
     },
     "end": {
       "type": "datetime"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "engine_oil_level": {
+      "type": "boolean"
+    },
+    "gearbox_oil_level": {
+      "type": "boolean"
+    },
+    "coolant_level": {
+      "type": "boolean"
+    },
+    "brake_fluid_level": {
+      "type": "boolean"
+    },
+    "washer_level": {
+      "type": "boolean"
+    },
+    "water_level": {
+      "type": "boolean"
+    },
+    "front_brake_pad": {
+      "type": "boolean"
+    },
+    "rear_brake_pad": {
+      "type": "boolean"
+    },
+    "front_disc": {
+      "type": "boolean"
+    },
+    "rear_disc": {
+      "type": "boolean"
+    },
+    "rear_jaw_kit": {
+      "type": "boolean"
+    },
+    "front_tire_wear": {
+      "type": "string"
+    },
+    "rear_tire_wear": {
+      "type": "string"
+    },
+    "front_lights": {
+      "type": "boolean"
+    },
+    "rear_lights": {
+      "type": "boolean"
+    },
+    "headlights": {
+      "type": "boolean"
+    },
+    "blinkers": {
+      "type": "boolean"
+    },
+    "front_shock_absorbers": {
+      "type": "boolean"
+    },
+    "rear_shock_absorbers": {
+      "type": "boolean"
+    },
+    "exhaust_pipe": {
+      "type": "boolean"
+    },
+    "windshield": {
+      "type": "boolean"
+    },
+    "battery": {
+      "type": "boolean"
+    },
+    "distribution_kit": {
+      "type": "boolean"
+    },
+    "belt_kit": {
+      "type": "boolean"
+    },
+    "fuel_level": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "text"
     }
   }
 }
